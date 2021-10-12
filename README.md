@@ -9,7 +9,7 @@ See the [setup steps](https://github.com/wpengine/faustjs#quick-start).
 ```bash
 npm install
 npm run wp-env:create
-open http://localhost:4000
+open http://localhost:4444
 npm run dev
 ```
 

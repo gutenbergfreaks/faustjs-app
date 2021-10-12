@@ -1,7 +1,7 @@
 {
 	"core": null,
-	"port": 4000,
-	"testsPort": 4001,
+	"port": 4444,
+	"testsPort": 4445,
 	"plugins": [
 		"https://downloads.wordpress.org/plugin/wp-graphql.zip",
 		"wp-graphql/wp-graphql-tax-query",
