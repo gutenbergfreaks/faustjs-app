@@ -1,4 +1,4 @@
-# Faust.js x Shifter Headless
+# Next.js Headless WordPress Getting Started Example
 
 ## Setup
 
