@@ -11,10 +11,7 @@ export default function Page() {
   const { usePosts, useQuery } = client;
   const generalSettings = useQuery().generalSettings;
   const posts = usePosts({
-    first: 6,
-    where: {
-      categoryName: 'uncategorized',
-    },
+    first: 6
   });
 
   return (
@@ -31,7 +28,7 @@ export default function Page() {
       </Head>
 
       <main className="content">
-        <Hero
+        {/* <Hero
           title="Get Started with Headless"
           buttonText="Developer Docs"
           buttonURL="https://faustjs.org"
@@ -53,8 +50,8 @@ export default function Page() {
             </a>{' '}
             to make building headless WordPress sites fast and fun.
           </p>
-        </Hero>
-        <section className={styles.explore}>
+        </Hero> */}
+        {/* <section className={styles.explore}>
           <div className="wrap">
             <h2>Explore this Example Project</h2>
             <p>
@@ -108,16 +105,16 @@ export default function Page() {
               </div>
             </div>
           </div>
-        </section>
+        </section> */}
         <Posts
           posts={posts.nodes}
-          heading="Latest Posts"
+          heading="最近の投稿"
           intro="The Posts component in src/pages/index.tsx shows the latest six posts from the connected WordPress site."
           headingLevel="h2"
           postTitleLevel="h3"
           id={styles.post_list}
         />
-        <CTA
+        {/* <CTA
           title="Questions or comments?"
           buttonText="Join the discussion on GitHub"
           buttonURL="https://github.com/wpengine/faustjs/discussions"
@@ -129,7 +126,7 @@ export default function Page() {
             </a>
             .
           </p>
-        </CTA>
+        </CTA> */}
       </main>
       <Footer copyrightHolder={generalSettings.title} />
     </>

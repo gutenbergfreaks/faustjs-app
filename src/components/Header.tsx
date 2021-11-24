@@ -37,7 +37,7 @@ function Header({
                 </Link>
               </li>
             ))}
-            <li>
+            {/* <li>
               <Link href="https://github.com/wpengine/faustjs">
                 <a
                   className="button"
@@ -45,7 +45,7 @@ function Header({
                   GitHub
                 </a>
               </Link>
-            </li>
+            </li> */}
           </ul>
         </div>
       </div>
