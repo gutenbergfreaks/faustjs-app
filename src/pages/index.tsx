@@ -109,7 +109,7 @@ export default function Page() {
         <Posts
           posts={posts.nodes}
           heading="最近の投稿"
-          intro="The Posts component in src/pages/index.tsx shows the latest six posts from the connected WordPress site."
+          intro="gutenbergfreaks.jpは「Gutenbergをネタにした止めどないお喋り」をする #Gutenbergを読む会 のサイトです。ここにはShifter HeadlessのWordPressから最新の記事を6件表示しています。"
           headingLevel="h2"
           postTitleLevel="h3"
           id={styles.post_list}
